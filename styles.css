@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/assets/patas.jpg);
+    background-color: rgb(7, 247, 255);
+    background-size: 15%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+iframe{
+    margin: 0;
+    width: 100%;
+}
+
+/*---------header----------*/
+
+#header-container{
+    background: white;
+}
+
+#title{
+    padding: 0 20px;
+    font-family: 'Advent Pro', sans-serif;
+    color: rgb(218, 68, 150);
+    font-size: 3vw;
+}
+
+
+
+/*-----------main------------*/
+
+main{
+    margin: 20px;
+}
+
+#texto-a{
+    background-color: white;
+    border-radius: 20px;
+    margin: 5% 15%;
+    padding: 2%;
+    text-align: center;
+    font-size: 1vw;
+}
+
+#atencion{
+    color: rgb(218, 68, 150);
+    font-size: 1.3vw;
+}
+
+#servicios{
+    background-color: white;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 0 10%;
+    color: rgb(126, 13, 75);
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2.3vw;
+    text-align: center;
+}
+
+#fts-descripcion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    color: black;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.fotos-vet{
+    width: 60%;
+}
+
+/*----------footer-----------*/
+
+footer{
+    background-color: white;
+    margin-top: 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3vw;
+}
+
+.fab{
+    padding: 20px;
+    font-size: 2vw;
+    text-decoration: none;
+}
